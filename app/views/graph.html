@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hack The North</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src='js/graph.js'></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+
+<body style="text-align:center; background-color:#000066;">
+  <nav id="main_nav">
+    <ul id="nav">
+      <li><a href="">P/E</a></li>
+      <li><a href="">Market Cap</a></li>
+      <li><a href="">Dividend Yield</a></li>
+      <li><a href="">RoA</a></li>
+      <li><a href="">Average Volume</a></li>
+    </ul>
+  </nav>
+
+  <div id="home"><a href="index.html">Sectors</a></div>
+  <div id="container">
+    <div style="background-color:white;">
+      <svg id="visualisation" width="960" height="400" style="margin-top:10px;"></svg>
+    </div>
+    <div class="data">
+      <table>
+        <tr>
+          <td id="Prev_Close"></td>
+          <td id="Open"></td>
+          <td id="Bid"></td>
+          <td id="Ask"></td>
+          <td id="1y_Target_Est"></td>
+        </tr>
+        <tr>
+          <td id="Beta"></td>
+          <td id="Earnings_Date"></td>
+          <td id="Day's_Range"></td>
+          <td id="53wk"></td>
+          <td id="Volume"></td>
+        </tr>
+        <tr>
+          <td id="AvgVol"></td>
+          <td id="MarketCap"></td>
+          <td id="PE"></td>
+          <td id="EPS"></td>
+          <td id="DivYield"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.axis path, .axis line
+{
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+
+.axis text
+{
+    font-family: 'Arial';
+    font-size: 13px;
+}
+.tick
+{
+    stroke-dasharray: 1, 2;
+}
+.bar
+{
+    fill: FireBrick;
+}
+.data{
+  text-align:center;
+  width:960px;
+  margin:auto;
+  font-family:Helvetica, sans-serif;
+}
+.data table{
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.data tr{
+  margin-bottom:10px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.data td{
+	text-align: center;
+  margin:10px;
+  margin-left:1.5px;
+  margin-right:1.5px;
+  background-color:white;
+  padding: 5px;
+  border: 1px solid black;
+}
